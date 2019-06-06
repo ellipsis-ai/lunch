@@ -18,4 +18,14 @@
   "question" : "What are you in the mood for? (e.g. coffee, burritos, sushi, Italian)",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
+}, {
+  "exportId" : "x3oi4S7jT2K50OiSf84rXQ",
+  "name" : "numResults",
+  "paramType" : {
+    "exportId" : "Number",
+    "name" : "Number"
+  },
+  "question" : "How many results do you want to see?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
 } ]

@@ -67,7 +67,7 @@ function errorHandler(error) {
 }
 
 function processResults(results) {
-  var top5 = results.businesses.slice(0, 5).map((ea) => {
+  var topN = results.businesses.slice(0, 5).map((ea) => {
     ea.stars = getStarsForRating(ea.rating);
     ea.location.address1 = ea.location.address1 || '';
     ea.location.address2 = ea.location.address2 || '';
@@ -75,8 +75,8 @@ function processResults(results) {
     return ea;
   });
   ellipsis.success({
-    businesses: top5,
-    topCount: top5.length,
+    businesses: topN,
+    topCount: topN.length,
     overallCount: results.total
   });
 }

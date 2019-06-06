@@ -3,6 +3,6 @@
   "exportId" : "mzEGPtn5R2OcmHpbD3wMrw",
   "icon" : "🍔",
   "requiredAWSConfigs" : [ ],
-  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredOAuthApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]
 }
